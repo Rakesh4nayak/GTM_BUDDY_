@@ -1,0 +1,101 @@
+id,text_snippet,labels
+1,CompetitorY offers better pricing for the same features.,Positive
+2,We are considering CompetitorZ because of their data pipeline.,Security
+3,CompetitorY is a strong competitor in the market.,"Security, Positive"
+4,"We love the analytics, but CompetitorX has a cheaper subscription.","Objection, Positive, Pricing Discussion"
+5,"The analytics is great, but the budget is too high.","Pricing Discussion, Objection, Positive"
+6,"We love the data pipeline, but CompetitorX has a cheaper subscription.","Competition, Security, Objection"
+7,CompetitorY offers better pricing for the same features.,Security
+8,Can you provide a discount for the AI engine?,"Security, Objection"
+9,CompetitorX is a strong competitor in the market.,"Competition, Security"
+10,"Your AI engine is robust, but we have pricing model constraints.",Objection
+11,CompetitorY offers better pricing for the same features.,"Objection, Pricing Discussion, Positive"
+12,Can you provide a renewal cost for the AI engine?,"Competition, Positive, Pricing Discussion"
+13,"We are happy with the AI engine, but the renewal cost is a concern.",Positive
+14,CompetitorX is a strong competitor in the market.,Pricing Discussion
+15,"The AI engine is great, but the discount is too high.","Security, Pricing Discussion, Objection"
+16,"We love the data pipeline, but CompetitorZ has a cheaper subscription.",Security
+17,CompetitorY offers better pricing for the same features.,"Security, Competition, Objection"
+18,Our compliance team is worried about data handling. Are you SOC2 certified?,Objection
+19,CompetitorX is a strong competitor in the market.,"Security, Objection, Positive"
+20,Our compliance team is worried about data handling. Are you SOC2 certified?,Competition
+21,"We are happy with the analytics, but the renewal cost is a concern.","Competition, Positive, Security"
+22,"Your AI engine is robust, but we have pricing model constraints.",Pricing Discussion
+23,"Your AI engine is robust, but we have renewal cost constraints.","Positive, Pricing Discussion, Competition"
+24,"The analytics is impressive, but we need a budget.","Competition, Positive"
+25,"We are happy with the data pipeline, but the pricing model is a concern.","Security, Pricing Discussion, Positive"
+26,"Your AI engine is robust, but we have discount constraints.","Competition, Security, Objection"
+27,CompetitorZ is a strong competitor in the market.,"Objection, Positive, Competition"
+28,"The data pipeline is great, but the budget is too high.",Security
+29,Can you provide a renewal cost for the data pipeline?,Objection
+30,Our compliance team is worried about data handling. Are you SOC2 certified?,"Pricing Discussion, Security"
+31,We are considering CompetitorZ because of their AI engine.,"Positive, Security"
+32,CompetitorX offers better pricing for the same features.,"Pricing Discussion, Objection, Positive"
+33,We are considering CompetitorY because of their analytics.,"Competition, Security, Positive"
+34,CompetitorY is a strong competitor in the market.,Positive
+35,Our compliance team is worried about data handling. Are you SOC2 certified?,Pricing Discussion
+36,"Your data pipeline is robust, but we have budget constraints.",Pricing Discussion
+37,"The AI engine is great, but the renewal cost is too high.","Positive, Security, Competition"
+38,CompetitorX is a strong competitor in the market.,"Competition, Objection"
+39,"We are happy with the AI engine, but the renewal cost is a concern.","Objection, Security"
+40,We are considering CompetitorY because of their analytics.,Objection
+41,Can you provide a discount for the AI engine?,"Security, Positive"
+42,Can you provide a discount for the data pipeline?,"Positive, Pricing Discussion, Competition"
+43,"Your analytics is robust, but we have renewal cost constraints.",Objection
+44,CompetitorY is a strong competitor in the market.,"Positive, Security, Objection"
+45,Our compliance team is worried about data handling. Are you SOC2 certified?,"Competition, Objection, Pricing Discussion"
+46,"The analytics is impressive, but we need a renewal cost.","Positive, Security, Pricing Discussion"
+47,"Your data pipeline is robust, but we have discount constraints.",Competition
+48,"Your AI engine is robust, but we have budget constraints.","Pricing Discussion, Positive"
+49,"We are happy with the AI engine, but the renewal cost is a concern.","Competition, Security"
+50,We are considering CompetitorZ because of their data pipeline.,"Objection, Competition"
+51,"Your data pipeline is robust, but we have budget constraints.","Competition, Objection, Positive"
+52,CompetitorZ offers better pricing for the same features.,"Security, Competition"
+53,"We love the AI engine, but CompetitorX has a cheaper subscription.","Objection, Security"
+54,CompetitorZ offers better pricing for the same features.,"Competition, Positive"
+55,"We are happy with the analytics, but the budget is a concern.",Security
+56,CompetitorX is a strong competitor in the market.,"Pricing Discussion, Security"
+57,We are considering CompetitorX because of their analytics.,"Pricing Discussion, Competition, Objection"
+58,"Your analytics is robust, but we have budget constraints.","Pricing Discussion, Positive, Competition"
+59,Our compliance team is worried about data handling. Are you SOC2 certified?,"Competition, Objection, Pricing Discussion"
+60,CompetitorY is a strong competitor in the market.,Pricing Discussion
+61,Our compliance team is worried about data handling. Are you SOC2 certified?,"Positive, Objection"
+62,We are considering CompetitorX because of their analytics.,Competition
+63,"We love the data pipeline, but CompetitorX has a cheaper subscription.",Objection
+64,Can you provide a renewal cost for the AI engine?,"Competition, Security, Positive"
+65,CompetitorX is a strong competitor in the market.,Security
+66,Can you provide a renewal cost for the AI engine?,Objection
+67,"We love the AI engine, but CompetitorY has a cheaper subscription.","Pricing Discussion, Positive"
+68,"The AI engine is impressive, but we need a discount.",Competition
+69,"The analytics is impressive, but we need a budget.",Security
+70,"Your data pipeline is robust, but we have renewal cost constraints.",Positive
+71,CompetitorZ offers better pricing for the same features.,"Security, Objection, Positive"
+72,"Your analytics is robust, but we have discount constraints.","Positive, Pricing Discussion, Competition"
+73,"The analytics is impressive, but we need a discount.","Security, Competition"
+74,"The analytics is great, but the budget is too high.",Pricing Discussion
+75,CompetitorZ is a strong competitor in the market.,"Positive, Security"
+76,"We are happy with the AI engine, but the budget is a concern.",Competition
+77,CompetitorY is a strong competitor in the market.,"Pricing Discussion, Objection"
+78,"We are happy with the data pipeline, but the budget is a concern.",Objection
+79,"The analytics is impressive, but we need a pricing model.","Pricing Discussion, Security, Positive"
+80,"We love the analytics, but CompetitorY has a cheaper subscription.","Objection, Positive, Competition"
+81,"The analytics is impressive, but we need a discount.","Objection, Positive"
+82,"Your data pipeline is robust, but we have pricing model constraints.","Competition, Objection"
+83,"The AI engine is great, but the renewal cost is too high.","Pricing Discussion, Competition, Objection"
+84,CompetitorZ offers better pricing for the same features.,"Pricing Discussion, Positive"
+85,Our compliance team is worried about data handling. Are you SOC2 certified?,"Competition, Pricing Discussion, Security"
+86,We are considering CompetitorX because of their data pipeline.,"Positive, Competition, Objection"
+87,"The analytics is great, but the pricing model is too high.","Security, Pricing Discussion, Competition"
+88,We are considering CompetitorY because of their analytics.,"Competition, Objection, Security"
+89,"We are happy with the AI engine, but the discount is a concern.","Pricing Discussion, Security"
+90,"The data pipeline is impressive, but we need a budget.","Objection, Pricing Discussion, Positive"
+91,CompetitorZ is a strong competitor in the market.,"Competition, Pricing Discussion"
+92,We are considering CompetitorZ because of their AI engine.,"Competition, Pricing Discussion, Objection"
+93,CompetitorY offers better pricing for the same features.,"Positive, Pricing Discussion"
+94,CompetitorY offers better pricing for the same features.,"Security, Pricing Discussion"
+95,We are considering CompetitorX because of their analytics.,"Competition, Positive"
+96,Our compliance team is worried about data handling. Are you SOC2 certified?,"Pricing Discussion, Objection, Security"
+97,"The data pipeline is great, but the budget is too high.","Positive, Security"
+98,"The analytics is great, but the renewal cost is too high.","Positive, Security"
+99,"We are happy with the analytics, but the discount is a concern.",Competition
+100,Our compliance team is worried about data handling. Are you SOC2 certified?,Positive

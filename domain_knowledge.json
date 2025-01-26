@@ -1,0 +1,30 @@
+{
+    "competitors": [
+        "CompetitorX",
+        "CompetitorY",
+        "CompetitorZ"
+    ],
+    "features": [
+        "analytics",
+        "AI engine",
+        "data pipeline",
+        "user dashboard"
+    ],
+    "pricing_keywords": [
+        "discount",
+        "renewal cost",
+        "budget",
+        "pricing model"
+    ],
+    "security_keywords": [
+        "SOC2",
+        "data compliance",
+        "encryption",
+        "GDPR"
+    ],
+    "general_keywords": [
+        "customer support",
+        "integration",
+        "scalability"
+    ]
+}
