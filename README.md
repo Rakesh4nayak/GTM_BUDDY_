@@ -47,9 +47,9 @@ Using the API
 Send a POST request to the /predict endpoint with a JSON body containing the text snippet.
 
 Example Request
-curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" -d '{"text_snippet": "We love the analytics, but CompetitorX has a cheaper subscription. Can you provide a discount?"}'
+Invoke-WebRequest -Uri "http://localhost:8000/predict" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"text_snippet": "We love the analytics, but CompetitorX has a cheaper subscription. Can you provide a discount? Our team is also concerned about data security."}'
 
-Example Response
+Example Response:
 json
 {
   "predicted_labels": [1, 0, 1, 0, 0],
