@@ -70,6 +70,7 @@ Send a POST request to the /predict endpoint with a JSON body containing the tex
 ```
 
 #### Example Response
+```
 json
 {
   "predicted_labels": [1, 0, 1, 0, 0],
@@ -80,6 +81,7 @@ json
   },
   "summary": "We love the analytics, but CompetitorX has a cheaper subscription."
 }
+```
 ### Without Docker:
 
 Install Dependencies:
