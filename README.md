@@ -27,7 +27,9 @@ Generates a summary of the input text using spaCy.
 
 ## Prerequisites
 Before running the application, ensure you have the following installed:
+
 1.Docker: Install Docker
+
 2.Python: Install Python (optional, for local development)
 
 ## Setup Instructions
@@ -101,5 +103,30 @@ Start the FastAPI server:
 ```
 ## Results
 ![Terminal Output](output.png)
+
+## Future Work
+#### 1.Data Curation: 
+**-** Collect more balanced datasets, particularly for underrepresented labels like Positive.
+
+ 
+**-** Label refinement to reduce ambiguity and overlap. 
+#### 2.Advanced Modeling: 
+**-** Fine-tune pre-trained transformer models (e.g., BERT, RoBERTa) for multi-label 
+classification. 
+
+
+**-** Experiment with hierarchical attention networks to better handle label 
+dependencies. 
+#### 3.Enhanced Entity Extraction: 
+**-** Incorporate contextual embeddings into the entity extraction pipeline. 
+
+**-** Expand domain knowledge dictionaries with synonyms and variations for more 
+comprehensive coverage. 
+#### 4.Real-Time Deployment: 
+**-** Implement a feedback loop to refine model performance over time based on user 
+corrections. 
+
+**-** Integrate the model into an end-to-end pipeline for real-time classification and entity 
+extraction.
 
 
