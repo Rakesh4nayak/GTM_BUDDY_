@@ -1,9 +1,18 @@
 ## Multi-Label Text Classification and Entity Extraction 
 This is a FastAPI-based application for multi-label text classification, entity extraction, and summarization. It uses a pre-trained machine learning model and spaCy for natural language processing tasks. The application is containerized using Docker for easy deployment.
-##Project Directory
+## Project Directory
+```
 /GTMMBUDDYY
-
-##Features
+  ├── app.py
+  ├── calls_dataset.csv
+  ├── Dockerfile
+  ├── domain_knowledge.json
+  ├── generate_dataset.py
+  ├── multi_label_classifier.pkl
+  ├── requirements.txt
+```
+  
+## Features
 1.Multi-Label Text Classification:
 
 Predicts labels for a given text snippet using a pre-trained model.
@@ -16,47 +25,51 @@ Extracts entities like competitors, features, and pricing keywords using a domai
 
 Generates a summary of the input text using spaCy.
 
-##Prerequisites
+## Prerequisites
 Before running the application, ensure you have the following installed:
-Docker: Install Docker
-Python: Install Python (optional, for local development)
+1.Docker: Install Docker
+2.Python: Install Python (optional, for local development)
 
-##Setup Instructions
-###local setup
+## Setup Instructions
+### local setup
 1. Clone the Repository
 Clone this repository to your local machine:
-bash
-      git clone https://github.com/your-username/gtm-buddy.git
+```bash
+      git clone https://github.com/Rakesh4nayak/GTM_BUDDY_
+```
 2.change repository
-bash
-      cd gtm-buddy
-###Docker setup
+```bash
+      cd GTM_BUDDY_
+```
+### Docker setup
 1. Build the Docker Image
 Build the Docker image using the provided Dockerfile:
-bash 
-      docker build -t gtm-buddy .
+```bash
+        docker build -t nlp-service .
+```
 
-2. Run the Docker Container
+3. Run the Docker Container
 Run the Docker container, mapping port 8000 on your host to port 8000 in the container:
-bash
-      docker run -d -p 8000:8000 --name gtm-buddy-container gtm-buddy
-
-###Access the Application
+```bash
+      docker run -p 8000:8000 nlp-service
+```
+### Access the Application
 Once the container is running, you can access the application at:
 
 Swagger UI: http://localhost:8000/docs
 
 Redoc: http://localhost:8000/redoc
 
-##Post Request 
+### Test end points using cURL
 Predict Labels and Extract Entities
 Send a POST request to the /predict endpoint with a JSON body containing the text snippet.
-**Sample Curl to call the end point ** 
-##Example Request
-bash
+#### Sample Curl to call the end point
+#### Example Request
+```bash
       Invoke-WebRequest -Uri "http://localhost:8000/predict" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"text_snippet": "We love the analytics, but CompetitorX has a cheaper subscription. Can you provide a discount? Our team is also concerned about data security."}'
+```
 
-##Example Response
+#### Example Response
 json
 {
   "predicted_labels": [1, 0, 1, 0, 0],
@@ -67,16 +80,24 @@ json
   },
   "summary": "We love the analytics, but CompetitorX has a cheaper subscription."
 }
-###for local setup
+### Without Docker:
 
-Install Dependencies
+Install Dependencies:
 If you want to run the application locally without Docker, install the required Python packages:
-bash
+```bash
      pip install -r requirements.txt
-bash
+```
+     
+```bash
    python -m spacy download en_core_web_sm
+```
 
 Run the Application Locally
 Start the FastAPI server:
-bash
+```bash
      uvicorn app:app --reload
+```
+## Results
+![Terminal Output](output.png)
+
+
