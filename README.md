@@ -37,23 +37,23 @@ Before running the application, ensure you have the following installed:
 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
-      git clone https://github.com/Rakesh4nayak/GTM_BUDDY_
+git clone https://github.com/Rakesh4nayak/GTM_BUDDY_
 ```
 2.change repository
 ```bash
-      cd GTM_BUDDY_
+cd GTM_BUDDY_
 ```
 ### Docker setup
 1. Build the Docker Image
 Build the Docker image using the provided Dockerfile:
 ```bash
-        docker build -t nlp-service .
+docker build -t nlp-service .
 ```
 
 3. Run the Docker Container
 Run the Docker container, mapping port 8000 on your host to port 8000 in the container:
 ```bash
-      docker run -p 8000:8000 nlp-service
+docker run -p 8000:8000 nlp-service
 ```
 ### Access the Application
 Once the container is running, you can access the application at:
@@ -68,7 +68,7 @@ Send a POST request to the /predict endpoint with a JSON body containing the tex
 #### Sample Curl to call the end point
 #### Example Request
 ```bash
-      Invoke-WebRequest -Uri "http://localhost:8000/predict" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"text_snippet": "We love the analytics, but CompetitorX has a cheaper subscription. Can you provide a discount? Our team is also concerned about data security."}'
+Invoke-WebRequest -Uri "http://localhost:8000/predict" -Method POST -Headers @{"Content-Type"="application/json"} -Body '{"text_snippet": "We love the analytics, but CompetitorX has a cheaper subscription. Can you provide a discount? Our team is also concerned about data security."}'
 ```
 
 #### Example Response
@@ -89,17 +89,17 @@ json
 Install Dependencies:
 If you want to run the application locally without Docker, install the required Python packages:
 ```bash
-     pip install -r requirements.txt
+pip install -r requirements.txt
 ```
      
 ```bash
-   python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_sm
 ```
 
 Run the Application Locally
 Start the FastAPI server:
 ```bash
-     uvicorn app:app --reload
+uvicorn app:app --reload
 ```
 ## Results
 ![Terminal Output](output.png)
@@ -108,7 +108,6 @@ Start the FastAPI server:
 #### 1.Data Curation: 
 **-** Collect more balanced datasets, particularly for underrepresented labels like Positive.
 
- 
 **-** Label refinement to reduce ambiguity and overlap. 
 #### 2.Advanced Modeling: 
 **-** Fine-tune pre-trained transformer models (e.g., BERT, RoBERTa) for multi-label 
